@@ -1,0 +1,9 @@
+body {
+  /* background: url(../img/index/01.banner.jpg) no-repeat 50% 50% / cover; */
+}
+
+header {
+  width: 100vw;
+  height: 44px;
+  background-color: #fff;
+}

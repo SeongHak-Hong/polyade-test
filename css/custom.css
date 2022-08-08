@@ -1,0 +1,54 @@
+/* Banner Container */
+.container {
+  padding-right: 0;
+  padding-left: 0;
+  margin-right: auto;
+  margin-left: auto;
+  background-color: #199AFE;
+  overflow-y: hidden;
+}
+
+/* Banner Inner */
+.carousel-inner {
+  width: 60%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+/* Banner Pager */
+.carousel-indicators li {
+  width: 12px;
+  height: 12px;
+  margin: 1px 6px;
+}
+
+
+/* Banner Pager Active */
+.carousel-indicators .active {
+  margin: 1px 6px;
+}
+
+/* Controler Left Btn */
+.carousel-control.left  {
+  background-image: linear-gradient(to right,rgb(19, 19, 19, .25),rgb(19, 19, 19, .0001) 100%);
+}
+
+/* Controler Right Btn */
+.carousel-control.right {
+  background-image: linear-gradient(to right,rgb(19, 19, 19, .0001),rgb(19, 19, 19, .25)100%);
+}
+
+/* Banner Media */
+@media (min-width: 768px) {
+  .container {
+    width: 100vw;
+    height: 590px;
+  }
+}
+
+/* Banner Pager Media */
+@media screen and (min-width: 768px) {
+  .carousel-indicators {
+    bottom: 36px;
+  }
+}
